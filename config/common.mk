@@ -24,6 +24,12 @@ PRODUCT_COPY_FILES += \
     vendor/dot/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh \
     vendor/dot/prebuilt/common/bin/clean_cache.sh:system/bin/clean_cache.sh
 
+# Lawnchair
+PRODUCT_PACKAGES += Lawnchair
+PRODUCT_COPY_FILES += \
+    vendor/dot/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:system/etc/permissions/privapp-permissions-lawnchair.xml \
+    vendor/dot/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
+
 ifeq ($(AB_OTA_UPDATER),true)
 PRODUCT_COPY_FILES += \
     vendor/dot/prebuilt/common/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \

@@ -161,6 +161,11 @@ PRODUCT_PACKAGES += \
     turbo.xml \
     privapp-permissions-turbo.xml	
 
+# Lawnchair Default Configuration
+PRODUCT_PACKAGES += \
+    Lawnchair \
+    LawnConf
+
 # Weather
 PRODUCT_PACKAGES += \
     WeatherClient

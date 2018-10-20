@@ -18,16 +18,16 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LiveWallpapers \
     LiveWallpapersPicker \
-    OmniStyle \
-    Dirac \ 
-    Stk \
-    Music \
     Browser \
     DotPapers \
     InterfaceCenter \
     SystemUpdates \
     MarkupGoogle \
-    WellbeingPrebuilt
+    Stk \
+    Music \
+    OmniStyle \
+    WellbeingPrebuilt \
+    Dirac 
 
 # Extra tools
 PRODUCT_PACKAGES += \
@@ -61,10 +61,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Exchange2
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.dot.overlay.lawnconf
+
 # Needed by some RILs and for some Gapps packages
 PRODUCT_PACKAGES += \
     librsjni \
     libprotobuf-cpp-full
+
 
 # Charger images
 PRODUCT_PACKAGES += \

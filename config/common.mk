@@ -96,6 +96,9 @@ PRODUCT_PACKAGES += \
     QStilesTearDrop \
     QSTilesJustIcons \
     QStilesCircleOutline \
+    QStileOreo \
+    QStileOreoCircleTrim \
+    QStileOreoSquircleTrim \
     QSTilesCircleGradient
 
 # EXT4/F2FS format script

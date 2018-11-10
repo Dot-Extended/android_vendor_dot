@@ -161,6 +161,12 @@ PRODUCT_COPY_FILES += \
     vendor/dot/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
     vendor/dot/config/permissions/privapp-permissions-custom.xml:system/etc/permissions/privapp-permissions-custom.xml \
 
+# Notification themes
+PRODUCT_PACKAGES += \
+    NotificationBlackTheme \
+    NotificationDarkTheme \
+    NotificationLightTheme
+
 # Turbo
 PRODUCT_PACKAGES += \
     Turbo \

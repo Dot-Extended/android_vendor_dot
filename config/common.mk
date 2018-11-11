@@ -102,7 +102,8 @@ PRODUCT_PACKAGES += \
     QStileOreo \
     QStileOreoCircleTrim \
     QStileOreoSquircleTrim \
-    QSTilesCircleGradient
+    QSTilesCircleGradient \
+    QStileSquaremedo
 
 # EXT4/F2FS format script
 PRODUCT_COPY_FILES += \

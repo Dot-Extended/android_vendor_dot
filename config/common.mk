@@ -108,6 +108,14 @@ PRODUCT_PACKAGES += \
     QSTilePokesign \
     QSTileShishuInk
 
+# QS header styles
+PRODUCT_PACKAGES += \
+    QSHeaderBlack \
+    QSHeaderGrey \
+    QSHeaderLightGrey \
+    QSHeaderAccent \
+    QSHeaderTransparent
+
 # Switch themes
 PRODUCT_PACKAGES += \
     MD2Switch \

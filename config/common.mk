@@ -96,6 +96,9 @@ PRODUCT_PACKAGES += \
     QStilesTearDrop \
     QSTilesJustIcons \
     QStilesCircleOutline \
+    QStileCircleDualTone \
+    QStileCircleGradient \
+    QStileDottedCircle \
     QStileOreo \
     QStileOreoCircleTrim \
     QStileOreoSquircleTrim \

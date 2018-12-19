@@ -99,6 +99,7 @@ PRODUCT_PACKAGES += \
     QStileCircleDualTone \
     QStileCircleGradient \
     QStileDottedCircle \
+    QStileInkDrop \
     QStileOreo \
     QStileOreoCircleTrim \
     QStileOreoSquircleTrim \

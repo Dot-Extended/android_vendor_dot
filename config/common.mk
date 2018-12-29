@@ -111,6 +111,12 @@ PRODUCT_PACKAGES += \
     QSTilePokesign \
     QSTileWavey
 
+# Switch themes
+PRODUCT_PACKAGES += \
+    MD2Switch \
+    OnePlusSwitch \
+    StockSwitch
+
 # EXT4/F2FS format script
 PRODUCT_COPY_FILES += \
     vendor/dot/prebuilt/common/bin/format.sh:install/bin/format.sh

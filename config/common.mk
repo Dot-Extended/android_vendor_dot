@@ -42,7 +42,11 @@ DEVICE_PACKAGE_OVERLAYS += \
     vendor/dot/overlay/common \
     vendor/dot/overlay/dictionaries
 
-
+# Cutout control overlays
+PRODUCT_PACKAGES += \
+    HideCutout \
+    StatusBarStock
+    
 # Themes
 # Accents
 PRODUCT_PACKAGES += \

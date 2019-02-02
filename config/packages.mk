@@ -18,6 +18,7 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     LiveWallpapers \
     LiveWallpapersPicker \
+    OmniStyle \
     Stk \
     Music \
     Browser \

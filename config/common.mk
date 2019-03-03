@@ -96,15 +96,20 @@ PRODUCT_PACKAGES += \
     QStilesTearDrop \
     QSTilesJustIcons \
     QStilesCircleOutline \
-    QStileCircleDualTone \
-    QStileCircleGradient \
-    QStileDottedCircle \
-    QStileInkDrop \
-    QStileOreo \
-    QStileOreoCircleTrim \
-    QStileOreoSquircleTrim \
-    QSTilesCircleGradient \
-    QStileSquaremedo
+    QSTileCircleTrim \
+    QSTileCircleDualTone \
+    QSTileCircleGradient \
+    QSTileCookie \
+    QSTileDualToneCircle \
+    QSTileInk \
+    QSTileInkdrop \
+    QSTileMountain \
+    QSTileNinja \
+    QSTileOreo \
+    QSTileOreoCircleTrim \
+    QSTileOreoSquircleTrim \
+    QSTilePokesign \
+    QSTileWavey
 
 # EXT4/F2FS format script
 PRODUCT_COPY_FILES += \

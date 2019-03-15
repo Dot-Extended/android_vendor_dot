@@ -64,6 +64,7 @@ PRODUCT_PACKAGES += \
     PurpleAccent \
     RedAccent \
     TealAccent \
+    UserEight \
     YellowAccent
 
 # UI Variants

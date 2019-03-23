@@ -115,8 +115,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MD2Switch \
     OnePlusSwitch \
-    StockSwitch
-
+    StockSwitch \
+    SwitchOne \
+    SwitchTwo \
+    SwitchThree \
+    SwitchFour \
+    SwitchFive \
+    SwitchSix \
+    SwitchSeven \
+    SwitchEight \
+    SwitchNine
 # EXT4/F2FS format script
 PRODUCT_COPY_FILES += \
     vendor/dot/prebuilt/common/bin/format.sh:install/bin/format.sh

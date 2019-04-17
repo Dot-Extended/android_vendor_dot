@@ -17,42 +17,29 @@ DOT_MOD_VERSION = v3.0
 
 
 ifndef DOT_BUILD_TYPE
-    DOT_BUILD_TYPE := UNOFFICIAL
+    DOT_BUILD_TYPE := OFFICIAL
 endif
 
 CURRENT_DEVICE=$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
 CUSTOM_BUILD_DATE := $(shell date -u +%Y%m%d-%H%M)
-
-ifeq ($(DOT_OFFICIAL), true)
-   LIST = $(shell curl -s https://raw.githubusercontent.com/DotOS/android_vendor_dot/dot-p/dot.devices)
-   FOUND_DEVICE =  $(filter $(CURRENT_DEVICE), $(LIST))
-    ifeq ($(FOUND_DEVICE),$(CURRENT_DEVICE))
-      IS_OFFICIAL=true
-      DOT_BUILD_TYPE := OFFICIAL
-      
-    endif
-    ifneq ($(IS_OFFICIAL), true)
-       DOT_BUILD_TYPE := UNOFFICIAL
-       $(error Device is not official "$(FOUND)")
-    endif
 	
 PRODUCT_GENERIC_PROPERTIES += \
-    dot.updater.uri=https://raw.githubusercontent.com/DotOS/ota_config/dot-p/$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3).json
+    dot.updater.uri=https://raw.githubusercontent.com/Dot-Extended/ota_config/dot-p/$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3).json
 
 endif
 
 TARGET_PRODUCT_SHORT := $(subst dot_,,$(CUSTOM_BUILD))
 
-DOT_VERSION := dotOS-P-$(DOT_MOD_VERSION)-$(CURRENT_DEVICE)-$(DOT_BUILD_TYPE)-$(CUSTOM_BUILD_DATE)
+DOT_VERSION := Dot-Extended-P-$(DOT_MOD_VERSION)-$(CURRENT_DEVICE)-$(DOT_BUILD_TYPE)-$(CUSTOM_BUILD_DATE)
 
-DOT_FINGERPRINT := dotOS/$(DOT_MOD_VERSION)/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(CUSTOM_BUILD_DATE)
+DOT_FINGERPRINT := Dot-Extended/$(DOT_MOD_VERSION)/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(CUSTOM_BUILD_DATE)
 
 PRODUCT_GENERIC_PROPERTIES += \
   ro.dot.version=$(DOT_VERSION) \
   ro.dot.releasetype=$(DOT_BUILD_TYPE) \
   ro.modversion=$(DOT_MOD_VERSION)
 
-DOT_DISPLAY_VERSION := DotOS-$(DOT_MOD_VERSION)-$(DOT_BUILD_TYPE)
+DOT_DISPLAY_VERSION := Dot-Extended-$(DOT_MOD_VERSION)-$(DOT_BUILD_TYPE)
 
 PRODUCT_GENERIC_PROPERTIES += \
   ro.dot.display.version=$(DOT_DISPLAY_VERSION)\

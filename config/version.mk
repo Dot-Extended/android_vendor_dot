@@ -26,8 +26,6 @@ CUSTOM_BUILD_DATE := $(shell date -u +%Y%m%d-%H%M)
 PRODUCT_GENERIC_PROPERTIES += \
     dot.updater.uri=https://raw.githubusercontent.com/Dot-Extended/ota_config/dot-p/$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3).json
 
-endif
-
 TARGET_PRODUCT_SHORT := $(subst dot_,,$(CUSTOM_BUILD))
 
 DOT_VERSION := Dot-Extended-P-$(DOT_MOD_VERSION)-$(CURRENT_DEVICE)-$(DOT_BUILD_TYPE)-$(CUSTOM_BUILD_DATE)

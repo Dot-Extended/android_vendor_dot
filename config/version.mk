@@ -17,7 +17,7 @@ DOT_MOD_VERSION = v3.0
 
 
 ifndef DOT_BUILD_TYPE
-    DOT_BUILD_TYPE := OFFICIAL
+    DOT_BUILD_TYPE := UNOFFICIAL
 endif
 
 CURRENT_DEVICE=$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)

@@ -96,20 +96,17 @@ PRODUCT_PACKAGES += \
     QStilesTearDrop \
     QSTilesJustIcons \
     QStilesCircleOutline \
-    QSTileCircleTrim \
-    QSTileCircleDualTone \
-    QSTileCircleGradient \
-    QSTileCookie \
-    QSTileDualToneCircle \
-    QSTileInk \
+    QSTilesCircleGradient \
+    QSTileCircleDual \
     QSTileInkdrop \
-    QSTileMountain \
+    QSTileShishuNights \
+    QSTileMemedoSquare \
+    QSTileWavey \
+    QSTileAttemptMountain \
+    QSTileDottedCircle \
     QSTileNinja \
-    QSTileOreo \
-    QSTileOreoCircleTrim \
-    QSTileOreoSquircleTrim \
     QSTilePokesign \
-    QSTileWavey
+    QSTileShishuInk
 
 # Switch themes
 PRODUCT_PACKAGES += \

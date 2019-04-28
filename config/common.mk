@@ -1,4 +1,4 @@
-# Copyright (C) 2018 Project dotOS 
+# Copyright (C) 2018 Project Dot-Extended
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-PRODUCT_BRAND ?= DotOS
+PRODUCT_BRAND ?= Dot-Extended
 
 include vendor/dot/config/version.mk
 

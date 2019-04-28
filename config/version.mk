@@ -1,4 +1,4 @@
-# Copyright (C) 2018 Project dotOS
+# Copyright (C) 2018 Project Dot-Extended
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#dotOS Versioning :
-DOT_MOD_VERSION = v3.0
+#Dot Versioning :
+DOT_MOD_VERSION = v3.1
 
 
 ifndef DOT_BUILD_TYPE

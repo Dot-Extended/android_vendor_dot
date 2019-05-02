@@ -24,7 +24,7 @@ CURRENT_DEVICE=$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
 CUSTOM_BUILD_DATE := $(shell date -u +%Y%m%d-%H%M)
 	
 PRODUCT_GENERIC_PROPERTIES += \
-    dot.updater.uri=https://raw.githubusercontent.com/Dot-Extended/ota_config/dot-p/$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3).json
+    dot.updater.uri=https://raw.githubusercontent.com/Dot-Extended/ota_config/pie/$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3).json
 
 TARGET_PRODUCT_SHORT := $(subst dot_,,$(CUSTOM_BUILD))
 

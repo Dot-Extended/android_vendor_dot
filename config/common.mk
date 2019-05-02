@@ -107,9 +107,16 @@ PRODUCT_PACKAGES += \
     QSTilePokesign \
     QSTileSquaremedo \
     QSTileSquircle \
+    QStileBadgetwo \
     QSTileSquircleTrim \
     QSTileTeardrop \
-    QSTileWavey
+    QStileDiamond \
+    QStileHexagon \
+    QStileSquare \
+    QSTileWavey \
+    QStileGear \
+    QStileStar \
+    QStileBadge
 
 # QS header styles
 PRODUCT_PACKAGES += \

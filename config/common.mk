@@ -153,14 +153,14 @@ PRODUCT_COPY_FILES += \
 
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
-    vendor/dot/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
+    vendor/dot/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
+    vendor/dot/config/permissions/privapp-permissions-custom.xml:system/etc/permissions/privapp-permissions-custom.xml \
 
 # Turbo
 PRODUCT_PACKAGES += \
     Turbo \
     turbo.xml \
-    privapp-permissions-turbo.xml	
-
+    privapp-permissions-turbo.xml 	
 # Lawnchair Default Configuration
 PRODUCT_PACKAGES += \
     Lawnchair \

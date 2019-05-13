@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     OmniStyle \
+    Dirac \ 
     Stk \
     Music \
     Browser \

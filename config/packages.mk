@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
     SystemUpdates \
     MarkupGoogle \
     Stk \
-    Music \
+    RetroMusicPlayer \
     OmniStyle \
     WellbeingPrebuilt \
     Dirac 

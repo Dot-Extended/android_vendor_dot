@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
     Lawnchair \
     LawnConf
 
+#SubsKey
+PRODUCT_PACKAGES += \
+    SubstratumSignature
+	
 # Weather
 PRODUCT_PACKAGES += \
     WeatherClient

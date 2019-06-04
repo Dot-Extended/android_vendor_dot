@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #Dot Versioning :
-DOT_MOD_VERSION = v3.2
+DOT_MOD_VERSION = v3.3
 
 
 ifndef DOT_BUILD_TYPE

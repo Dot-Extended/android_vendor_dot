@@ -23,4 +23,4 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_GENERIC_PROPERTIES += \
     ro.config.ringtone=Zen_too.ogg\
     ro.config.notification_sound=Mallet.ogg \
-    ro.config.alarm_alert=Bright_morning.ogg
+    ro.config.alarm_alert=Ummonhiyonat.ogg

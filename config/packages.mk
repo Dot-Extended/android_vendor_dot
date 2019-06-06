@@ -74,6 +74,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
+# Alarm sounds
+PRODUCT_COPY_FILES += \
+    vendor/dot/prebuilt/common/media/audio/Ummonhiyonat.ogg:system/media/audio/alarms/Ummonhiyonat.ogg 
+	
 #Font package
 PRODUCT_PACKAGES += \
     Custom-Fonts
